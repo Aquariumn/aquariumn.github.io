@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <svg:svg width="100%" height="100%" version="1.1" style="position:fixed; top:0; left:0; z-index:-1">
+      <!-- Import shrimp SVG and convert to monochrome pattern -->
+      <svg:defs>
+        <!-- Monochrome filter -->
+        <svg:filter id="monochrome">
+          <svg:feColorMatrix type="matrix" values="                   0.33 0.33 0.33 0 0                   0.33 0.33 0.33 0 0                   0.33 0.33 0.33 0 0                   0    0    0    1 0"/>
+          <svg:feComponentTransfer>
+            <svg:feFuncR type="table" tableValues="0.2 0.6"/>
+            <svg:feFuncG type="table" tableValues="0.2 0.7"/>
+            <svg:feFuncB type="table" tableValues="0.4 0.9"/>
+          </svg:feComponentTransfer>
+        </svg:filter>
+        <!-- Shrimp pattern -->
+        <svg:pattern id="shrimpPattern" patternUnits="userSpaceOnUse" width="100" height="100" patternTransform="rotate(45)">
+          <svg:rect width="100" height="100" fill="#63639C"/>
+          <!-- External shrimp SVG reference with monochrome filter applied -->
+          <svg:image xlink:href="shrimp.svg" x="10" y="10" width="80" height="80" filter="url(#monochrome)" opacity="0.2"/>
+        </svg:pattern>
+      </svg:defs>
+      <svg:rect width="100%" height="100%" fill="url(#shrimpPattern)"/>
+    </svg:svg>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Aquariumn</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+    <style type="text/css">
+      @import url("https://fonts.googleapis.com/css2?family=EB+Garamond");
+    </style>
+  </head>
+    <nav>
+      <table width="100%" bgcolor="whitesmoke">
+      <a href="#"><button>Лососевые</button></a>
+      <a href="#"><button>Карповые</button></a>
+      </table>
+    </nav>
+  <body>
+    <table width="100%" cellspacing="50%" cellpadding="10%">
+    <tbody bgcolor="black" width="100%">
+      <tr bgcolor="black" width="100%">
+      <td bgcolor="gainsboro" width="100%">
+
+        <!-- SOME MAC OS 9 STYLED WINDOW HEADER -->
+        <table width="100%">
+          <td>
+            <hr color="white" size="2px" style="margin: 1px; border-bottom: 1px solid gray;" />
+            <hr color="white" size="2px" style="margin: 1px; border-bottom: 1px solid gray;" />
+            <hr color="white" size="2px" style="margin: 1px; border-bottom: 1px solid gray;" />
+            <hr color="white" size="2px" style="margin: 1px; border-bottom: 1px solid gray;" />
+            <hr color="white" size="2px" style="margin: 1px; border-bottom: 1px solid gray;" />
+            <hr color="white" size="2px" style="margin: 1px; border-bottom: 1px solid gray;" />
+          </td>
+          <td width="1" height="0">
+            <header><h3 style="font-family: 'EB Garamond', serif; margin: 0;">Forel⠀Subteam⠀Info</h3></header>
+          </td>
+          <td>
+            <hr color="white" size="2px" style="margin: 1px; border-bottom: 1px solid gray;" />
+            <hr color="white" size="2px" style="margin: 1px; border-bottom: 1px solid gray;" />
+            <hr color="white" size="2px" style="margin: 1px; border-bottom: 1px solid gray;" />
+            <hr color="white" size="2px" style="margin: 1px; border-bottom: 1px solid gray;" />
+            <hr color="white" size="2px" style="margin: 1px; border-bottom: 1px solid gray;" />
+            <hr color="white" size="2px" style="margin: 1px; border-bottom: 1px solid gray;" />
+          </td>
+        </table>
+
+        <!-- MAIN WINDOW CONTENT -->
+
+        <table bgcolor="black" width="100%" cellpadding="0">
+          <!-- TEAM LOGO HERE -->
+          <tbody width="100%">
+            <tr width="100%" align="center" bgcolor="ghostwhite">
+                <img src="forel.png" style="width: 100%; height: auto; max-height: 15vh; object-fit: contain;" alt="Forel" />
+            </tr>
+            <tr bgcolor="gainsboro" width="100%">
+              <td bgcolor="gainsboro" width="100%">
+              </td>
+            </tr>
+            <tr bgcolor="white">
+              <!--aside (достижения?)-->
+              <article>
+                <h3>article header</h3>
+                <p>article text</p>
+                <footer>article foot</footer>
+              </article>
+              <ul>
+                <li>участники</li>
+                <li>Alan Bean</li>
+                <li>Peter Conrad</li>
+                <li>Edgar Mitchell</li>
+                <li>Alan Shepard</li>
+              </ul>
+              <footer>foot</footer>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+      </tr>
+
+
+
+      <tr>
+        <div height="10vh" />
+      </tr>
+
+
+      <tr bgcolor="black" width="100%">
+      <td bgcolor="gainsboro" width="100%">
+
+        <!-- SOME MAC OS 9 STYLED WINDOW HEADER -->
+        <table width="100%">
+          <td>
+            <hr color="white" size="2px" style="margin: 1px; border-bottom: 1px solid gray;" />
+            <hr color="white" size="2px" style="margin: 1px; border-bottom: 1px solid gray;" />
+            <hr color="white" size="2px" style="margin: 1px; border-bottom: 1px solid gray;" />
+            <hr color="white" size="2px" style="margin: 1px; border-bottom: 1px solid gray;" />
+            <hr color="white" size="2px" style="margin: 1px; border-bottom: 1px solid gray;" />
+            <hr color="white" size="2px" style="margin: 1px; border-bottom: 1px solid gray;" />
+          </td>
+          <td width="1" height="0">
+            <header><h3 style="font-family: 'EB Garamond', serif; margin: 0;">Losos⠀Subteam⠀Info</h3></header>
+          </td>
+          <td>
+            <hr color="white" size="2px" style="margin: 1px; border-bottom: 1px solid gray;" />
+            <hr color="white" size="2px" style="margin: 1px; border-bottom: 1px solid gray;" />
+            <hr color="white" size="2px" style="margin: 1px; border-bottom: 1px solid gray;" />
+            <hr color="white" size="2px" style="margin: 1px; border-bottom: 1px solid gray;" />
+            <hr color="white" size="2px" style="margin: 1px; border-bottom: 1px solid gray;" />
+            <hr color="white" size="2px" style="margin: 1px; border-bottom: 1px solid gray;" />
+          </td>
+        </table>
+
+        <!-- MAIN WINDOW CONTENT -->
+
+        <table bgcolor="black" width="100%" cellpadding="0">
+          <!-- TEAM LOGO HERE -->
+          <tbody width="100%">
+            <tr width="100%" align="center" bgcolor="ghostwhite">
+                <img src="losos.png" style="width: 100%; height: auto; max-height: 15vh; object-fit: contain;" alt="Forel" />
+            </tr>
+            <tr bgcolor="gainsboro" width="100%">
+              <td bgcolor="gainsboro" width="100%">
+              </td>
+            </tr>
+            <tr bgcolor="white">
+              <!--aside (достижения?)-->
+              <article>
+                <h3>article header</h3>
+                <p>article text</p>
+                <footer>article foot</footer>
+              </article>
+              <ul>
+                <li>участники</li>
+                <li>Alan Bean</li>
+                <li>Peter Conrad</li>
+                <li>Edgar Mitchell</li>
+                <li>Alan Shepard</li>
+              </ul>
+              <footer>foot</footer>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+      </tr>
+
+    </tbody>
+    </table>
+
+    <footer>(c) Forel Team 2023-2025</footer>
+
+  </body>
+</html>
